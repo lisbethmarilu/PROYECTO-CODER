@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Raleway", sans-serif; }
+
+header {
+  background-color: #e9e9e9;
+  position: sticky;
+  top: 0; }
+  header .navbar .container-md {
+    width: 90%; }
+    header .navbar .container-md .collapse .navbar-nav .nav-item {
+      margin: 12px; }
+      header .navbar .container-md .collapse .navbar-nav .nav-item .nav-link {
+        text-decoration: none;
+        color: #2F3E46;
+        font-size: 16px; }
+        header .navbar .container-md .collapse .navbar-nav .nav-item .nav-link:hover {
+          color: #7e989c; }
+
+.hero {
+  width: 100%;
+  height: calc(80vh - 148px);
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+  .hero .container {
+    width: 90%;
+    margin: 0 auto; }
+    .hero .container h1 {
+      width: 50%;
+      font-size: 36px;
+      color: #fff;
+      padding-bottom: 24px;
+      padding-top: 24px; }
+    .hero .container .btn {
+      background-color: #354F52;
+      border-color: #354F52;
+      padding: 10px;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 16px; }
+      .hero .container .btn:hover {
+        background-color: #659ca2;
+        border-color: #659ca2; }
+
+.conocenos {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .conocenos .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px; }
+    .conocenos .container .parte1 {
+      width: 50%; }
+      .conocenos .container .parte1 img {
+        width: 100%;
+        border-radius: 14px; }
+    .conocenos .container .parte2 {
+      width: 50%; }
+      .conocenos .container .parte2 p {
+        font-size: 16px;
+        margin-bottom: 24px;
+        margin-top: 12px; }
+      .conocenos .container .parte2 .btn {
+        font-size: 16px;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #354F52;
+        border-color: #354F52; }
+        .conocenos .container .parte2 .btn:hover {
+          background-color: #659ca2;
+          border-color: #659ca2; }
+
+.tipoplatos .container {
+  width: 90%;
+  margin: 0 auto; }
+  .tipoplatos .container .contenttipoplatos {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .tipoplatos .container .contenttipoplatos .itemplatos {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 40px;
+      gap: 40px; }
+      .tipoplatos .container .contenttipoplatos .itemplatos .parte1 {
+        width: 50%; }
+        .tipoplatos .container .contenttipoplatos .itemplatos .parte1 p {
+          font-size: 16px;
+          margin-bottom: 24px;
+          margin-top: 12px; }
+        .tipoplatos .container .contenttipoplatos .itemplatos .parte1 .btn {
+          background-color: #354F52;
+          border-color: #354F52;
+          font-size: 16px;
+          color: #fff;
+          padding: 10px;
+          border-radius: 4px; }
+          .tipoplatos .container .contenttipoplatos .itemplatos .parte1 .btn:hover {
+            background-color: #659ca2;
+            border-color: #659ca2; }
+      .tipoplatos .container .contenttipoplatos .itemplatos .parte2 {
+        width: 50%; }
+        .tipoplatos .container .contenttipoplatos .itemplatos .parte2 img {
+          width: 100%;
+          border-radius: 14px; }
+
+.servicios {
+  background-color: #f1f1f1; }
+  .servicios .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px; }
+    .servicios .container .parte1 {
+      width: 50%; }
+      .servicios .container .parte1 img {
+        width: 100%; }
+    .servicios .container .parte2 {
+      width: 50%; }
+      .servicios .container .parte2 p {
+        font-size: 16px;
+        margin-bottom: 24px;
+        margin-top: 12px; }
+      .servicios .container .parte2 .btn {
+        background-color: #354F52;
+        border-color: #354F52;
+        font-size: 16px;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px; }
+        .servicios .container .parte2 .btn:hover {
+          background-color: #659ca2;
+          border-color: #659ca2; }
+
+.contactenos .container {
+  width: 90%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: flex;
+  gap: 40px; }
+  .contactenos .container .parte1 p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    margin-top: 12px; }
+  .contactenos .container .parte1 .btn {
+    background-color: #354F52;
+    border-color: #354F52;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px; }
+    .contactenos .container .parte1 .btn:hover {
+      background-color: #659ca2;
+      border-color: #659ca2; }
+  .contactenos .container .parte2 {
+    width: 50%;
+    display: flex; }
+    .contactenos .container .parte2 .conotactenos__whatsapp {
+      width: 50%; }
+    .contactenos .container .parte2 .conotactenos__telefono {
+      width: 50%; }
+      .contactenos .container .parte2 .conotactenos__telefono svg {
+        width: 50px;
+        color: #2F3E46; }
+      .contactenos .container .parte2 .conotactenos__telefono p {
+        font-size: 16px;
+        margin-bottom: 24px;
+        margin-top: 12px; }
+
+.contact {
+  background-color: #f1f1f1;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .contact .container {
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+    .contact .container .tittle {
+      margin-bottom: 20px; }
+    .contact .container .form-contact .form .form-element {
+      margin-bottom: 24px; }
+      .contact .container .form-contact .form .form-element .form-label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333; }
+      .contact .container .form-contact .form .form-element .form-input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px; }
+      .contact .container .form-contact .form .form-element .btn {
+        background-color: #354F52;
+        border-color: #354F52;
+        margin-top: 24px; }
+        .contact .container .form-contact .form .form-element .btn:hover {
+          background-color: #659ca2;
+          border-color: #659ca2; }
+
+.proposito .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px; }
+  .proposito .container .parte1 {
+    width: 50%; }
+    .proposito .container .parte1 img {
+      width: 100%;
+      border-radius: 10px; }
+  .proposito .container .parte2 {
+    width: 50%; }
+    .proposito .container .parte2 p {
+      font-size: 16px; }
+
+.vision-mision .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0; }
+  .vision-mision .container .parte1 {
+    width: 50%; }
+  .vision-mision .container .parte2 {
+    width: 50%; }
+
+.img-vision-mision .container {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+  .img-vision-mision .container img {
+    border-radius: 10px;
+    width: 100%; }
+
+.servicios1 .container {
+  width: 90%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px; }
+  .servicios1 .container .parte1 {
+    width: 50%; }
+    .servicios1 .container .parte1 img {
+      border-radius: 10px;
+      width: 100%; }
+  .servicios1 .container .parte2 {
+    width: 50%; }
+    .servicios1 .container .parte2 .contentservicio {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 200px 200px;
+      column-gap: 24px;
+      row-gap: 24px; }
+      .servicios1 .container .parte2 .contentservicio .itemservicio p {
+        font-size: 16px; }
+
+.plato .container {
+  width: 90%;
+  margin: 0 auto; }
+  .plato .container h2 {
+    margin-bottom: 24px;
+    margin-top: 40px; }
+  .plato .container .btn {
+    background-color: #354F52;
+    border-color: #354F52;
+    margin-top: 24px; }
+    .plato .container .btn:hover {
+      background-color: #659ca2;
+      border-color: #659ca2; }
+  .plato .container .contentplato {
+    margin-top: 40px; }
+    .plato .container .contentplato .itemplato {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 40px;
+      gap: 40px; }
+      .plato .container .contentplato .itemplato .parte1 {
+        width: 50%; }
+        .plato .container .contentplato .itemplato .parte1 img {
+          width: 100%;
+          border-radius: 14px; }
+      .plato .container .contentplato .itemplato .parte2 {
+        width: 50%; }
+        .plato .container .contentplato .itemplato .parte2 p {
+          font-size: 16px;
+          margin-bottom: 24px;
+          margin-top: 12px; }
+
+footer {
+  background-color: #2F3E46; }
+  footer .container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start; }
+    footer .container div h3 {
+      color: #fff;
+      font-size: 16px;
+      font-family: "Raleway", sans-serif; }
+    footer .container div ul {
+      list-style: none; }
+      footer .container div ul li {
+        padding-top: 12px; }
+        footer .container div ul li a {
+          text-decoration: none;
+          color: #fff; }
+    footer .container div .footer__whatsapp svg {
+      color: #fff; }
+    footer .container div .footer__whatsapp p {
+      font-size: 16px;
+      color: #fff; }
+    footer .container div .footer__telefono svg {
+      color: #fff; }
+    footer .container div .footer__telefono p {
+      font-size: 16px;
+      color: #fff; }
+
+@media (max-width: 768px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  .hero {
+    height: calc(60vh - 148px); }
+  .hero h1 {
+    width: 70%;
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 24px;
+    padding-top: 24px; } }
+
+@media (max-width: 768px) {
+  .conocenos .container {
+    display: flex;
+    flex-direction: column; }
+  .conocenos .container .parte1 {
+    width: 100%; }
+  .conocenos .container .parte2 {
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  .tipoplatos .contenttipoplatos .itemplatos {
+    display: flex;
+    flex-direction: column; }
+  .tipoplatos .container .contenttipoplatos .itemplatos .parte1 {
+    width: 100%; }
+  .tipoplatos .container .contenttipoplatos .itemplatos .parte2 {
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  .servicios .container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding-top: 40px; }
+  .servicios .container .parte1 {
+    width: 100%; }
+  .servicios .container .parte2 {
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  .contactenos .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; }
+  .contactenos .container .parte1 {
+    width: 100%; }
+  .contactenos .container .parte2 {
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; } }
+
+@media (max-width: 768px) {
+  .proposito .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+  .proposito .container .parte1 {
+    width: 100%; }
+  .proposito .container .parte2 {
+    width: 100%; } }
+
+@media (max-width: 425px) {
+  .vision-mision .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+  .vision-mision .container .parte1 {
+    width: 100%; }
+  .vision-mision .container .parte2 {
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  .servicios1 .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+  .servicios1 .container .parte1 {
+    width: 100%; }
+  .servicios1 .container .parte2 {
+    width: 100%; } }
+
+@media (max-width: 425px) {
+  .servicios1 .container .parte2 .contentservicio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px; } }
+
+@media (max-width: 768px) {
+  .plato .contentplato .itemplato {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+  .plato .container .contentplato .itemplato .parte1 {
+    width: 100%; }
+  .plato .container .contentplato .itemplato .parte2 {
+    width: 100%; } }

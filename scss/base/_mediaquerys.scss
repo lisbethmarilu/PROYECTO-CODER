@@ -1,0 +1,154 @@
+@media (max-width: 768px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: calc(60vh - 148px);
+    }
+    .hero h1{
+        width: 70%;
+        font-size: 24px;
+        color: #fff;
+        padding-bottom: 24px;
+        padding-top: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .conocenos .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .conocenos .container .parte1{
+        width: 100%;
+    }
+    .conocenos .container .parte2{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .tipoplatos .contenttipoplatos .itemplatos{
+        display: flex;
+        flex-direction: column;
+    }
+    .tipoplatos .container .contenttipoplatos .itemplatos .parte1{
+        width: 100%;
+    }
+    .tipoplatos .container .contenttipoplatos .itemplatos .parte2{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .servicios .container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        padding-top: 40px;
+
+    }
+    .servicios .container .parte1{
+        width: 100%;
+    }
+    .servicios .container .parte2{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactenos .container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contactenos .container .parte1{
+        width: 100%;
+    }
+    .contactenos .container .parte2{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    footer .container{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .proposito .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .proposito .container .parte1{
+        width: 100%;
+    }
+    .proposito .container .parte2{
+        width: 100%;
+    }
+}
+@media (max-width: 425px) {
+    .vision-mision .container{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .vision-mision .container .parte1{
+        width: 100%;
+    }
+    .vision-mision .container .parte2{
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .servicios1 .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .servicios1 .container .parte1{
+        width: 100%;
+    }
+    .servicios1 .container .parte2{
+        width: 100%;
+    }
+}
+@media (max-width: 425px) {
+    .servicios1 .container .parte2 .contentservicio{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .plato .contentplato .itemplato{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .plato .container .contentplato .itemplato .parte1{
+        width: 100%;
+    }
+    .plato .container .contentplato .itemplato .parte2{
+        width: 100%;
+    }
+}
