@@ -25,6 +25,7 @@
             border-radius: 4px;
             color: #fff;
             font-size: 16px;
+            transition: 1s;
             &:hover{
                 background-color: $color-secundario;
                 border-color: $color-secundario;
@@ -47,6 +48,10 @@
             img{
                 width: 100%;
                 border-radius: 14px;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
         .parte2{
@@ -63,6 +68,7 @@
                 border-radius: 4px;
                 background-color: $color-principal;
                 border-color: $color-principal;
+                transition: 1s;
                 &:hover{
                     background-color: $color-secundario;
                     border-color: $color-secundario;
@@ -98,6 +104,7 @@
                         color: #fff;
                         padding: 10px;
                         border-radius: 4px;
+                        transition: 1s;
                         &:hover{
                             background-color: $color-secundario;
                             border-color: $color-secundario;
@@ -109,6 +116,10 @@
                     img{
                         width: 100%;
                         border-radius: 14px;
+                        transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                }
                     }
                 }
             }
@@ -128,6 +139,10 @@
             width: 50%;
             img{
                 width: 100%;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
         .parte2{
@@ -144,6 +159,7 @@
                 color: #fff;
                 padding: 10px;
                 border-radius: 4px;
+                transition: 1s;
                 &:hover{
                     background-color: $color-principal;
                     border-color: $color-principal;
@@ -172,6 +188,7 @@
                  color: #fff;
                  padding: 10px;
                  border-radius: 4px;
+                 transition: 1s;
                  &:hover{
                      background-color: $color-secundario;
                      border-color: $color-secundario;
@@ -237,6 +254,7 @@
                         background-color: $color-principal;
                         border-color: $color-principal;
                         margin-top: 24px;
+                        transition: 1s;
                         &:hover{
                             background-color: $color-secundario;
                             border-color: $color-secundario;
@@ -264,6 +282,10 @@
             img{
                 width: 100%;
                 border-radius: 10px;
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
         .parte2{
@@ -299,6 +321,10 @@
         img{
             border-radius: 10px;
             width: 100%;  
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
     }
 }
@@ -319,6 +345,10 @@
             img{
                 border-radius: 10px;
                 width: 100%; 
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
         .parte2{
@@ -350,6 +380,7 @@
             background-color: $color-principal;
             border-color: $color-principal;
             margin-top: 24px;
+            transition: 1s;
             &:hover{
                 background-color: $color-secundario;
                 border-color: $color-secundario;
@@ -368,6 +399,10 @@
                     img{
                         width: 100%;
                         border-radius: 14px;
+                        transition: 1s;
+                &:hover{
+                    transform: scale(1.1);
+                }
                     }
                 }
                 .parte2{
