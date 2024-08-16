@@ -11,10 +11,10 @@ header{
                         margin: 12px;
                         .nav-link{
                             text-decoration: none;
-                            color: #2F3E46;
+                            color: $color-principal;
                             font-size: 16px;
                             &:hover{
-                                color: #7e989c;
+                                color: $color-secundario;
                             }
                         }
                     }

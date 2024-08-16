@@ -19,15 +19,15 @@
             padding-top: 24px;
         }
         .btn{
-            background-color: #354F52;
-            border-color: #354F52;
+            background-color: $color-principal;
+            border-color: $color-principal;
             padding: 10px;
             border-radius: 4px;
             color: #fff;
             font-size: 16px;
             &:hover{
-                background-color: #659ca2;
-                border-color: #659ca2;
+                background-color: $color-secundario;
+                border-color: $color-secundario;
             }
         }
     }
@@ -61,11 +61,11 @@
                 color: #fff;
                 padding: 10px;
                 border-radius: 4px;
-                background-color: #354F52;
-                border-color: #354F52;
+                background-color: $color-principal;
+                border-color: $color-principal;
                 &:hover{
-                    background-color: #659ca2;
-                    border-color: #659ca2;
+                    background-color: $color-secundario;
+                    border-color: $color-secundario;
                 }
             }
         }
@@ -92,15 +92,15 @@
                         margin-top: 12px;
                     }
                     .btn{
-                        background-color: #354F52;
-                        border-color: #354F52;
+                        background-color:$color-principal;
+                        border-color:$color-principal;
                         font-size: 16px;
                         color: #fff;
                         padding: 10px;
                         border-radius: 4px;
                         &:hover{
-                            background-color: #659ca2;
-                            border-color: #659ca2;
+                            background-color: $color-secundario;
+                            border-color: $color-secundario;
                         }
                     }
                 }
@@ -138,15 +138,15 @@
                 margin-top: 12px;
             }
             .btn{
-                background-color: #354F52;
-                border-color: #354F52;
+                background-color: $color-principal;
+                border-color: $color-principal;
                 font-size: 16px;
                 color: #fff;
                 padding: 10px;
                 border-radius: 4px;
                 &:hover{
-                    background-color: #659ca2;
-                    border-color: #659ca2;
+                    background-color: $color-principal;
+                    border-color: $color-principal;
                 }
             }
         }
@@ -166,15 +166,15 @@
                  margin-top: 12px;
              }
             .btn{
-                 background-color: #354F52;
-                 border-color: #354F52;
+                 background-color: $color-principal;
+                 border-color: $color-principal;
                  font-size: 16px;
                  color: #fff;
                  padding: 10px;
                  border-radius: 4px;
                  &:hover{
-                     background-color: #659ca2;
-                     border-color: #659ca2;
+                     background-color: $color-secundario;
+                     border-color: $color-secundario;
                  }
              }
         }
@@ -188,7 +188,7 @@
                 width: 50%;
                 svg{
                     width: 50px;
-                    color: #2F3E46;
+                    color: $color-principal;
                 }
                 p{
                     font-size: 16px;
@@ -234,12 +234,12 @@
                         border-radius: 5px;
                     }
                     .btn{
-                        background-color: #354F52;
-                        border-color: #354F52;
+                        background-color: $color-principal;
+                        border-color: $color-principal;
                         margin-top: 24px;
                         &:hover{
-                            background-color: #659ca2;
-                            border-color: #659ca2;
+                            background-color: $color-secundario;
+                            border-color: $color-secundario;
                         }
                     }
                 }
@@ -347,12 +347,12 @@
             margin-top: 40px;
         }
         .btn{
-            background-color: #354F52;
-            border-color: #354F52;
+            background-color: $color-principal;
+            border-color: $color-principal;
             margin-top: 24px;
             &:hover{
-                background-color: #659ca2;
-                border-color: #659ca2;
+                background-color: $color-secundario;
+                border-color: $color-secundario;
             }
         }
         .contentplato{

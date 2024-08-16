@@ -7,3 +7,10 @@
 body{
     font-family: "Raleway", sans-serif;
 }
+$color-principal:#2F3E46;
+$color-secundario:#659ca2;
+%flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}

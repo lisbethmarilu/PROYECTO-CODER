@@ -7,6 +7,11 @@
 body {
   font-family: "Raleway", sans-serif; }
 
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start; }
+
 header {
   background-color: #e9e9e9;
   position: sticky;
@@ -20,7 +25,7 @@ header {
         color: #2F3E46;
         font-size: 16px; }
         header .navbar .container-md .collapse .navbar-nav .nav-item .nav-link:hover {
-          color: #7e989c; }
+          color: #659ca2; }
 
 .hero {
   width: 100%;
@@ -42,8 +47,8 @@ header {
       padding-bottom: 24px;
       padding-top: 24px; }
     .hero .container .btn {
-      background-color: #354F52;
-      border-color: #354F52;
+      background-color: #2F3E46;
+      border-color: #2F3E46;
       padding: 10px;
       border-radius: 4px;
       color: #fff;
@@ -78,8 +83,8 @@ header {
         color: #fff;
         padding: 10px;
         border-radius: 4px;
-        background-color: #354F52;
-        border-color: #354F52; }
+        background-color: #2F3E46;
+        border-color: #2F3E46; }
         .conocenos .container .parte2 .btn:hover {
           background-color: #659ca2;
           border-color: #659ca2; }
@@ -103,8 +108,8 @@ header {
           margin-bottom: 24px;
           margin-top: 12px; }
         .tipoplatos .container .contenttipoplatos .itemplatos .parte1 .btn {
-          background-color: #354F52;
-          border-color: #354F52;
+          background-color: #2F3E46;
+          border-color: #2F3E46;
           font-size: 16px;
           color: #fff;
           padding: 10px;
@@ -138,15 +143,15 @@ header {
         margin-bottom: 24px;
         margin-top: 12px; }
       .servicios .container .parte2 .btn {
-        background-color: #354F52;
-        border-color: #354F52;
+        background-color: #2F3E46;
+        border-color: #2F3E46;
         font-size: 16px;
         color: #fff;
         padding: 10px;
         border-radius: 4px; }
         .servicios .container .parte2 .btn:hover {
-          background-color: #659ca2;
-          border-color: #659ca2; }
+          background-color: #2F3E46;
+          border-color: #2F3E46; }
 
 .contactenos .container {
   width: 90%;
@@ -159,8 +164,8 @@ header {
     margin-bottom: 24px;
     margin-top: 12px; }
   .contactenos .container .parte1 .btn {
-    background-color: #354F52;
-    border-color: #354F52;
+    background-color: #2F3E46;
+    border-color: #2F3E46;
     font-size: 16px;
     color: #fff;
     padding: 10px;
@@ -209,8 +214,8 @@ header {
         border: 1px solid #ccc;
         border-radius: 5px; }
       .contact .container .form-contact .form .form-element .btn {
-        background-color: #354F52;
-        border-color: #354F52;
+        background-color: #2F3E46;
+        border-color: #2F3E46;
         margin-top: 24px; }
         .contact .container .form-contact .form .form-element .btn:hover {
           background-color: #659ca2;
@@ -285,8 +290,8 @@ header {
     margin-bottom: 24px;
     margin-top: 40px; }
   .plato .container .btn {
-    background-color: #354F52;
-    border-color: #354F52;
+    background-color: #2F3E46;
+    border-color: #2F3E46;
     margin-top: 24px; }
     .plato .container .btn:hover {
       background-color: #659ca2;
@@ -317,10 +322,7 @@ footer {
     width: 90%;
     margin: 0 auto;
     padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: start; }
+    padding-bottom: 40px; }
     footer .container div h3 {
       color: #fff;
       font-size: 16px;
