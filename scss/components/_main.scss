@@ -282,10 +282,6 @@
             img{
                 width: 100%;
                 border-radius: 10px;
-                transition: 1s;
-                &:hover{
-                    transform: scale(1.1);
-                }
             }
         }
         .parte2{
@@ -321,10 +317,6 @@
         img{
             border-radius: 10px;
             width: 100%;  
-            transition: 1s;
-            &:hover{
-                transform: scale(1.1);
-            }
         }
     }
 }
@@ -399,10 +391,6 @@
                     img{
                         width: 100%;
                         border-radius: 14px;
-                        transition: 1s;
-                &:hover{
-                    transform: scale(1.1);
-                }
                     }
                 }
                 .parte2{

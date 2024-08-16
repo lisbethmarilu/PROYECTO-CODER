@@ -247,10 +247,7 @@ header {
     width: 50%; }
     .proposito .container .parte1 img {
       width: 100%;
-      border-radius: 10px;
-      transition: 1s; }
-      .proposito .container .parte1 img:hover {
-        transform: scale(1.1); }
+      border-radius: 10px; }
   .proposito .container .parte2 {
     width: 50%; }
     .proposito .container .parte2 p {
@@ -275,10 +272,7 @@ header {
   margin-bottom: 40px; }
   .img-vision-mision .container img {
     border-radius: 10px;
-    width: 100%;
-    transition: 1s; }
-    .img-vision-mision .container img:hover {
-      transform: scale(1.1); }
+    width: 100%; }
 
 .servicios1 .container {
   width: 90%;
@@ -333,10 +327,7 @@ header {
         width: 50%; }
         .plato .container .contentplato .itemplato .parte1 img {
           width: 100%;
-          border-radius: 14px;
-          transition: 1s; }
-          .plato .container .contentplato .itemplato .parte1 img:hover {
-            transform: scale(1.1); }
+          border-radius: 14px; }
       .plato .container .contentplato .itemplato .parte2 {
         width: 50%; }
         .plato .container .contentplato .itemplato .parte2 p {
