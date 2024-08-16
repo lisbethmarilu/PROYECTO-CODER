@@ -247,7 +247,10 @@ header {
     width: 50%; }
     .proposito .container .parte1 img {
       width: 100%;
-      border-radius: 10px; }
+      border-radius: 12px;
+      transition: 1s; }
+      .proposito .container .parte1 img:hover {
+        transform: scale(1.1); }
   .proposito .container .parte2 {
     width: 50%; }
     .proposito .container .parte2 p {
@@ -327,7 +330,10 @@ header {
         width: 50%; }
         .plato .container .contentplato .itemplato .parte1 img {
           width: 100%;
-          border-radius: 14px; }
+          border-radius: 14px;
+          transition: 1s; }
+          .plato .container .contentplato .itemplato .parte1 img:hover {
+            transform: scale(1.1); }
       .plato .container .contentplato .itemplato .parte2 {
         width: 50%; }
         .plato .container .contentplato .itemplato .parte2 p {
